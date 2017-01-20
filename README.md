@@ -50,7 +50,7 @@ func (up *UpYun) Mkdir(path string) error
 #### 上传
 
 ```go
-func (up *UpYun) Put(config *PutObjectConfig) (err error)
+func (up *UpYun) Put(config *[PutObjectConfig](#PutObjectConfig)) (err error)
 ```
 
 #### 下载
